@@ -48,11 +48,11 @@ class ButtonPad(QWidget):
     def create_button_pad(self):
         main_layout = QVBoxLayout()
         button_rows = [
-            ["*", "+", "-"],
-            ["7", "8", "9"],
-            ["4", "5", "6"],
-            ["1", "2", "3"],
-            ["0", "CE", "="]
+            ["CE", "(", ")", "/"],
+            ["7", "8", "9", "*"],
+            ["4", "5", "6", "+"],
+            ["1", "2", "3", "-"],
+            ["%", "0", ".", "="]
         ]
 
         for row in button_rows:
