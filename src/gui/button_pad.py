@@ -31,7 +31,7 @@ class ButtonPad(QWidget):
 
     def create_equal_button(self, text):
         button = self.create_button(text)
-        button.clicked.connect(lambda: self.calculator_engine.on_equal_button_click())
+        button.clicked.connect(lambda: self.calculator_engine.calculate_expression())
         return button
 
     def create_button_layout(self, button_texts):

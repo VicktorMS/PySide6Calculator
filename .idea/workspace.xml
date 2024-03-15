@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="New Operations">
-      <change afterPath="$PROJECT_DIR$/src/gui/expression_history.py" afterDir="false" />
+    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="Expression History">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/calculator_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/calculator_engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/main_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/button_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/button_pad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/result_display.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/result_display.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,12 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710442529671</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Expression History">
+      <option name="closed" value="true" />
+      <created>1710463098762</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710463098762</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intial Commit" />
     <MESSAGE value="New Operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Operations" />
+    <MESSAGE value="Expression History" />
+    <option name="LAST_COMMIT_MESSAGE" value="Expression History" />
   </component>
 </project>

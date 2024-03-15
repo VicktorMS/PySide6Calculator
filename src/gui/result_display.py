@@ -12,7 +12,7 @@ class ResultDisplay(QWidget):
 
     def display_handler(self):
         self.line_edit.textEdited.connect(self.display_edited)
-        self.line_edit.returnPressed.connect(self.calculator_engine.on_equal_button_click)
+        self.line_edit.returnPressed.connect(self.calculator_engine.calculate_expression)
         self.calculator_engine.current_expression_changed.connect(self.update_line_edit_text)
 
     def display_edited(self):
