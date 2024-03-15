@@ -10,7 +10,6 @@ from src.gui.result_display import ResultDisplay
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Calculadora")
         self.calculator_engine = CalculatorEngine()
         self.setup_ui(self.calculator_engine)
 
