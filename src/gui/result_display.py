@@ -1,5 +1,5 @@
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QWidget, QLabel, QLineEdit, QPushButton, QHBoxLayout
+from PySide6.QtWidgets import QWidget, QLineEdit, QHBoxLayout
 
 
 class ResultDisplay(QWidget):
@@ -33,3 +33,4 @@ class ResultDisplay(QWidget):
 
     def update_line_edit_text(self, new_text):
         self.line_edit.setText(new_text)
+        self.line_edit.setFocus()
