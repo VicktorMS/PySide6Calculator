@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="Expression History">
+    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="Better Evaluation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/calculator_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/calculator_engine.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gui/button_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/button_pad.py" afterDir="false" />
@@ -119,13 +119,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710463098762</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Better Evaluation">
+      <option name="closed" value="true" />
+      <created>1710508112976</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710508112976</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intial Commit" />
     <MESSAGE value="New Operations" />
     <MESSAGE value="Expression History" />
-    <option name="LAST_COMMIT_MESSAGE" value="Expression History" />
+    <MESSAGE value="Better Evaluation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better Evaluation" />
   </component>
 </project>

@@ -2,6 +2,7 @@ from PySide6.QtWidgets import QHBoxLayout, QPushButton, QVBoxLayout, QWidget
 
 
 class ButtonPad(QWidget):
+
     def __init__(self, calculator_engine):
         super().__init__()
         self.create_button_pad()
@@ -14,10 +15,6 @@ class ButtonPad(QWidget):
         font.setPointSize(14)
         btn.setFont(font)
         return btn
-
-    # def create_clear_button(self, text):
-    #     btn = self.create_button(text)
-    #     btn.clicked.connect(lambda: self.calculator.on_button_press("PENES")) # Call Clear Display Function
 
     def create_common_button(self, text):
         button = self.create_button(text)

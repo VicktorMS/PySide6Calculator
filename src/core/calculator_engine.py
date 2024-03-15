@@ -9,6 +9,7 @@ class CalculatorEngine(QObject):
     def __init__(self):
         super().__init__()
         self.current_expression = ""
+        self.ERROR_MESSAGE = "ERROR"
 
     @property
     def current_expression(self):
@@ -18,13 +19,6 @@ class CalculatorEngine(QObject):
     def current_expression(self, value):
         self._current_expression = value
         self.current_expression_changed.emit(value)  # Emitir o sinal quando o valor de current_expression mudar
-
-    # def on_confirm_clicked(self):
-    #     print("Confirm Expression called")
-    #     self.previous_expression = self.current_expression
-    #     result = eval(self.current_expression)
-    #     self.current_expression = result
-    #     self.history_updated.emit()
 
     def on_common_button_click(self, text):
         self.current_expression = self.current_expression + text
@@ -42,4 +36,4 @@ class CalculatorEngine(QObject):
             result = ne.evaluate(self.current_expression)
             self.set_current_and_previous_expressions(result)
         except Exception as e:
-            self.current_expression = "ERROR"
+            self.current_expression = self.ERROR_MESSAGE
