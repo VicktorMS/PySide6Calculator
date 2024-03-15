@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="Intial Commit">
+    <list default="true" id="ab3c90dc-fbf6-430d-aa9a-c5bfb1d8f3a5" name="Changes" comment="New Operations">
+      <change afterPath="$PROJECT_DIR$/src/gui/expression_history.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/button_pad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/button_pad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/calculator_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/calculator_engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/main_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/main_window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,11 +103,20 @@
       <option name="project" value="LOCAL" />
       <updated>1710437475917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Operations">
+      <option name="closed" value="true" />
+      <created>1710442529671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710442529671</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Intial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intial Commit" />
+    <MESSAGE value="New Operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Operations" />
   </component>
 </project>
